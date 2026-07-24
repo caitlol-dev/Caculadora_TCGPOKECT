@@ -1,0 +1,1 @@
+Calculadora para saber o tempo e pontos necessarios na hora de comprar uma carta dentro dos boosters no pokemon tcg pokect
