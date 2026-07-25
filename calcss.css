@@ -20,6 +20,14 @@ body {
   padding: 20px;
 }
 
+
+body.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
 .container {
   width: 100%;
   max-width: 420px;
@@ -131,9 +139,12 @@ button:active {
   margin: 6px 0;
 }
 
-footer{
-    background:#03071200;
-    padding:25px;
-    text-align:center;
-    color:#9ca3af;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  color: #ffffff;
 }
