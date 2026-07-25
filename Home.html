@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora TCG Pocket</title>
+  <link rel="stylesheet" href="calcss.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Pontos</h1>
+    <p>Calcule quantos dias faltam para atingir sua meta no Pokémon TCG Pocket.</p>
+
+    <div class="field">
+      <label for="meta">Meta de pontos</label>
+      <input
+        type="number"
+        id="meta"
+        placeholder="Ex.: 500"
+        min="1"
+        max="2500"
+      />
+      <small>Máximo permitido: 2500 pontos.</small>
+    </div>
+
+    <div class="field">
+      <label for="saldo">Pontos atuais no booster</label>
+      <input
+        type="number"
+        id="saldo"
+        placeholder="Ex.: 120"
+        min="0"
+      />
+    </div>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="calscript.js"></script>
+</body>
+</html>
