@@ -130,3 +130,10 @@ button:active {
 .result-line {
   margin: 6px 0;
 }
+
+footer{
+    background:#03071200;
+    padding:25px;
+    text-align:center;
+    color:#9ca3af;
+}
